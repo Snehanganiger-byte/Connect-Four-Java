@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Connect Four | Sneha</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>CONNECT FOUR</h1>
+
+        <p class="subtitle">
+            Drop four discs in a row to win!
+        </p>
+
+        <div class="game-info">
+            <div>
+                <span>Player 1</span>
+                <strong class="red-text">🔴 Red</strong>
+            </div>
+
+            <div id="status">
+                Player 1's Turn
+            </div>
+
+            <div>
+                <span>Player 2</span>
+                <strong class="yellow-text">🟡 Yellow</strong>
+            </div>
+        </div>
+
+        <div id="column-buttons" class="column-buttons"></div>
+
+        <div id="board" class="board"></div>
+
+        <div class="controls">
+            <button id="new-game">New Game</button>
+        </div>
+
+        <div class="score">
+            <div>
+                Player 1:
+                <strong id="score1">0</strong>
+            </div>
+
+            <div>
+                Player 2:
+                <strong id="score2">0</strong>
+            </div>
+        </div>
+
+        <p class="footer">
+            Connect Four Game • JavaScript Web Version
+        </p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
